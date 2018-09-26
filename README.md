@@ -6,7 +6,7 @@ A small library dedicated to WebComponents.
 
 # Library overview
 
-[source code](https://github.com/d-plaindoux/light.js/blob/master/src/lib/index.ts)
+[source code](https://github.com/d-plaindoux/light.js/blob/master/src/light/index.ts)
 
 ## List.Element class
 
