@@ -34,7 +34,7 @@ function Light.Property<I>(Properties<I>?): <T extends Light.Element>(Constructo
 
 # TODO
 
-- support css/html templating in separate file 
+- support css/html templating in separate files
 
 - seamless shadow dom usage 
 
