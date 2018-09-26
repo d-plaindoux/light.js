@@ -1,8 +1,8 @@
 {
-  "name": "sample-client",
+  "name": "light.js",
   "version": "1.0.0",
-  "description": "Sample Client",
-  "license": "APL",
+  "description": "Light library dedicated to Web Components",
+  "license": "APLv2",
   "scripts": {
     "start": "webpack-dev-server"
   },
