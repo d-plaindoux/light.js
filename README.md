@@ -36,7 +36,7 @@ function Property<I>(Properties<I>?): <T extends Light.Element>(Constructor<T>) 
 
 - support css/html templating in separate file 
 
-- shadow dom is not used for the moment!
+- seamless shadow dom usage 
 
 # Small Example
 
