@@ -32,6 +32,12 @@ type Properties<T>  = { attribute?: string, observed?: boolean, read?: (string) 
 function Property<I>(Properties<I>?): <T extends Light.Element>(Constructor<T>) => Constructor<T>
 ```
 
+# TODO
+
+- support css/html templating in separate file 
+
+- shadow dom is not used for the moment!
+
 # Small Example
 
 ```
