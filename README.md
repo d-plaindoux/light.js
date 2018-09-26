@@ -44,7 +44,7 @@ function Light.Property<I>(Properties<I>?): <T extends Light.Element>(Constructo
 import {html, render, TemplateResult} from 'lit-html'
 import {Light} from '../../light'
 
-@Light.Component('hello-world')
+@Light.Custom('hello-world')
 class HelloElement extends Light.Element {
    @Light.Property({observed:true}) name: string;
    
