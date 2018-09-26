@@ -67,7 +67,7 @@ class HelloElement extends Light.Element {
 Such component can be simply instantiate using the dedicated custom element. 
 
 ```
-<hello-world name='Smith`></hello-world>
+<hello-world name='Smith'></hello-world>
 ``` 
 
 # LICENSE
