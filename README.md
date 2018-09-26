@@ -29,7 +29,7 @@ function Light.Custom<T extends Light.Element>(string, Extension?): T => T
 type Constructor<T> = new (...args: any[]) => T;
 type Properties<T>  = { attribute?: string, observed?: boolean, read?: (string) => T }
 
-function Property<I>(Properties<I>?): <T extends Light.Element>(Constructor<T>) => Constructor<T>
+function Light.Property<I>(Properties<I>?): <T extends Light.Element>(Constructor<T>) => Constructor<T>
 ```
 
 # TODO
