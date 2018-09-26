@@ -11,7 +11,7 @@ export class UsersElement extends Light.Element {
         super();
         this._users = [
             new UserModel("John", "Doe", 42),
-            new UserModel("OSS", "117", 33),
+            new UserModel("Smith", "Anon", 33),
         ]
     }
 
@@ -20,7 +20,7 @@ export class UsersElement extends Light.Element {
         this._users.forEach((user, index) => {
             setInterval(() => {
                 var element = (document.getElementById(`user-${index}`) as UsersElement)
-                element.setAttribute("age", `${parseInt(element.getAttribute("age"), 10)+ 1}`);
+                element.setAttribute("age", `${parseInt(element.getAttribute("age"), 10) + 1}`);
             }, 2000)
         });
     }
@@ -28,7 +28,7 @@ export class UsersElement extends Light.Element {
     template(): TemplateResult {
         return html`
             <ul>
-            ${this._users.map((user, index) => 
+            ${this._users.map((user, index) =>
             html`
                 <li>
                     <sample-user id="user-${index}"

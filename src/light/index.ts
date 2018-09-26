@@ -1,4 +1,4 @@
-import {Guid} from "./guid";
+import {UUID} from "./uuid";
 
 export module Light {
 
@@ -63,7 +63,7 @@ export module Light {
             if (delete target[key]) {
                 let attributeName = (description && description.attribute) || key.toString();
                 let attributeReader = (description && description.read) || (v => v);
-                let attributeKey = Guid.newGuid();
+                let attributeKey = UUID.fresh();
 
                 const getter = function (this) {
                     let value = this[attributeKey];
