@@ -40,6 +40,8 @@ function Light.Property<I>(Properties<I>?): <T extends Light.Element>(Constructo
 
 # Small Example
 
+The following example uses the [HTML templating library for JavaScript](https://polymer.github.io/lit-html/) .
+
 ```
 import {html, render, TemplateResult} from 'lit-html'
 import {Light} from '../../light'
@@ -59,7 +61,7 @@ class HelloElement extends Light.Element {
    template() : TemplateResult {
       return html`
         <div> Hello ${this.name} </div>
-      `
+      `;
    }
 }
 ```
